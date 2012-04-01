@@ -1,0 +1,80 @@
+body {
+	font-family: Crete Round;
+}
+
+#editor {
+	position: fixed;
+	top: 10%;
+	left: 0;
+	width: 50%;
+	height: 90%;
+}
+
+#view {
+	position: fixed;
+	top: 10%;
+	right: 0;
+	width: 50%;
+	height: 90%;
+}
+
+#reload {
+	float: right;
+}
+
+#editor-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 10%;
+	padding: 0 5px 0 5px;
+}
+
+#editor-header .doc-name {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#editor-header .button {
+
+}
+
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	margin-top: 0.5em;
+	font-size: 400%;
+	border-bottom: 1px solid #AAA;
+}
+
+.login > div {
+	border: 1px solid #AAA;
+}
+.login > div h2 {
+	text-align: center;
+	background-color: #CCC;
+}
+
+.login p {
+	padding: 0.5em;
+}
+
+.footer {
+	margin-top: 3em;
+	text-align: center;
+	color: #666;
+}
+
+.button {
+	display: inline-block;
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	background-color: #CCC;
+	color: black;
+	padding: 0 0.5em 0 0.5em;
+	cursor: pointer;
+	margin-right: 1em;
+}
